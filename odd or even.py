@@ -1,8 +1,8 @@
 x = int(input("Input"))
 flag = x%2
 if flag == 0:
-    print("even")
+    print("Even")
 elif flag == -1:
-    print("odd")
+    print("Odd")
 else:
     print("invalid")
