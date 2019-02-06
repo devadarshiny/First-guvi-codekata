@@ -1,6 +1,6 @@
 n=int(input())
-count=0
-while(n>0):
-    count=count+1
-    n=n//10
-print("The number of digits in the number are:",count)
+sum1 = 0
+while(n > 0):
+    sum1=sum1+n
+    n=n-1
+print("SUM IS",sum1)
