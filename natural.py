@@ -1,6 +1,6 @@
 n=int(input())
-sum1 = 0
-while(n > 0):
-    sum1=sum1+n
-    n=n-1
-print("The sum of first n natural numbers is",sum1)
+count=0
+while(n>0):
+    count=count+1
+    n=n//10
+print("The number of digits in the number are:",count)
